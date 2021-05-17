@@ -4,7 +4,8 @@
   "description": "Working with asynchronism in js",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "challenge": "node src/callback/challenge.js"
   },
   "keywords": [
     "js",
@@ -13,5 +14,8 @@
     "asynchronism"
   ],
   "author": "Andres X. Vargas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
